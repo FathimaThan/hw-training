@@ -1,8 +1,11 @@
 Learnt following topics:
-package installers.
-1.apt-get
-2.pip
-Terminal text editor
-1.nano
-2.Vim
-
+1.package installers.
+ a.apt-get
+ b.pip
+2.Terminal text editor
+ a.nano
+ b.Vim
+3.IDE
+ a.Sublime Text
+Practiced with nano and vim to edit a file
+Installed Sublime Text
