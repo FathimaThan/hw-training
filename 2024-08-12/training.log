@@ -4,4 +4,6 @@ studied the following topics
 a.Insert, delete, update and bulk insert
 b.Exporting, importing, dumping and restore
 c.GUI tools - compass
-
+d.Sharding, clustering, nodes
+e.Indexing
+f.What is object ID and how to generate a timestamp from object?
