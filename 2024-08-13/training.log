@@ -1,0 +1,5 @@
+1. Created a collection using MongoDB compass
+2. Added and removed index
+3. Installed pymongo	
+4. Generated a timestamp from object id
+5. 
