@@ -1,4 +1,6 @@
 Created a collection using MongoDB compass
+Created databases and collection
+Imported and Exported collection
 Added and removed index
 Installed pymongo	
 Generated a timestamp from object id
