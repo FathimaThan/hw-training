@@ -1,0 +1,11 @@
+Practiced commands on pymongo
+created database and collection
+inserted new records
+created index
+removed index
+updated collection
+tried commands like find(), limit(), sort() etc...
+removed records
+dropped collection
+dropped database
+tried all above using pymongo, mongodb compass, and mongosh
