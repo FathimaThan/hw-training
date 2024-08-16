@@ -2,6 +2,7 @@ practiced with mongodb compass
 Did the following tasks:
 1. Import Data from csv to MongoDB - used mongodb compass
 2. Export Data from MongoDB to json - using mongodb compass export option
-3. Export Data from MongoDB to csv(keeping same field order. Without any empty fields) _ Exported to csv using mongodb compass ,then used python to remove columns that has null values
+3. Export Data from MongoDB to csv(keeping same field order. Without any empty fields) -
+	 Exported to csv using mongodb compass ,then used python to remove columns that has null values
 4. Testing of Data - tested data for null values, duplicated, field order, ensured no of rows remained the same.
 
