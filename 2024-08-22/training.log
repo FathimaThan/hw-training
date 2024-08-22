@@ -1,0 +1,8 @@
+Task - build something to clean given dataset
+Identified the errors in the dataset
+Requirements gathering
+Cleaned the dataset using python in jupyter lab
+Installed Streamlit and built an interactive web app for cleaning the dataset
+	Created a python file named app.py
+	Running this file takes you to a user interface where you can upload the dataset and 
+	you will get summary statistics and cleaned dataset

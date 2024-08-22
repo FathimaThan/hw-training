@@ -1,0 +1,47 @@
+Issues found in the data
+- Error Loading: Some rows have more column values than expected, causing loading errors.
+- Date and Time Formats: Dates and times are in object data types and are not in a standard format.
+- Missing Values: The catalogue price column contains missing values.
+- Stock Column Standardization: The Stock column has inconsistent values due to mixed uppercase and lowercase letters.
+
+Tools Used:
+
+    Python: For implementing data processing and cleaning logic.
+    Jupyter Lab: For developing and testing code.
+    Streamlit: For building and deploying the interactive web application.
+
+1.Objective:
+
+    Upload, Clean, and Analyze CSV Data: Build a Streamlit app to handle, clean, and provide statistics for uploaded CSV files.
+
+2.File Upload:
+
+    Widget: Users upload a CSV file using a file uploader widget.
+
+3.Error Handling:
+
+    Handling Parsing Errors: Uses try...except to manage errors during CSV file reading, with options to skip or warn about problematic lines. Ignored rows that has more column values than expected.
+
+4.Data Cleaning:
+
+    Standardization:
+        Remove Duplicates: Eliminate duplicate rows.
+        Standardize Columns: Convert Stock to lowercase and strip whitespace.
+        Fill Missing Values: Replace missing values with "Unavailable" in specific columns.
+    Date and Time Parsing: Convert dates to YYYY-MM-DD format and times to HH:MM:SS, with forward-filling for missing values.
+    URL Validation: Check if URLs are valid and are unique
+5.Data Analysis:
+
+    Statistics:
+        Total Rows: Display the total number of rows.
+        URL Stats: Show counts of valid, invalid, and duplicate URLs.
+        Numeric Summary: Provide descriptive statistics for numeric columns.
+        Categorical Summary: Display value counts for categorical columns.
+
+6.Download Option:
+
+    CSV Download: Allow users to download the cleaned dataset as a CSV file.
+
+7.User Interface:
+
+    Streamlit Interface: Use Streamlit widgets to upload files, display data, show statistics, and provide a download link.
