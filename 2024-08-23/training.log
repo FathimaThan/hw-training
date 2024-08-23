@@ -1,0 +1,5 @@
+Attended meeting
+- Task: improve the code
+suggestions given - Display the errors including date time error
+	Check the column headers
+	Display bad lines in the dataset like rows that has more column values than expected
