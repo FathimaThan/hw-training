@@ -3,3 +3,20 @@ Attended meeting
 suggestions given - Display the errors including date time error
 	Check the column headers
 	Display bad lines in the dataset like rows that has more column values than expected
+	Remove rows that has more null values
+Updated the code:
+	
+1. Null Value Handling:
+Added functionality to check for rows with more than 6 null values. These rows are displayed and then removed from the DataFrame.
+
+2. Error Display:
+Updated the code to display data quality issues and error messages related to file loading and parsing.
+
+3. Column Check:
+Implemented a check to verify the presence of all required columns. A success message is shown if all required columns are present, otherwise, a warning is displayed for any missing columns.
+
+4. Date Format Validation:
+Added functionality to identify and display values in the date column that do not match common date formats.
+
+5. Invalid URL Handling:
+Added functionality to display Invalid URLs.

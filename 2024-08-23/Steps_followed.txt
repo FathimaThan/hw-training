@@ -1,0 +1,14 @@
+Task - Data Cleaning, autodoc_2024_08_16.csv
+Process followed to do the task
+1. Installed Jupyter Lab: Developed and tested the Python code within Jupyter Lab.
+
+2. Set Up Streamlit: Installed Streamlit in a virtual environment using the command:
+	source myenv/bin/activate    # activate virtual env
+	pip install streamlit
+
+3. Created app.py: Used Sublime Text to create and edit the app.py file, optimizing the code initially developed in Jupyter Lab.
+
+4. Run the Streamlit App: Executed the Streamlit app from the terminal with the following commands:
+	source myenv/bin/activate    # activate virtual env
+	cd path/to/folder
+	streamlit run app3.py      # launch the app
