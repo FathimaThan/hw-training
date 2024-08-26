@@ -1,0 +1,72 @@
+Data QA - home_realestate_2024_08_05.json
+tools used - jupyter lab, python and mongodb compass(to convert json to csv)
+
+- Presence of Null values
+- All columns are in object datatype including phone numbers and zipcode
+
+1. First Name
+- Full Names and Titles:
+Contains full names like 'Gregg & Debbie Boosalis'.
+Includes descriptive phrases like 'HOME Real Estate Customer Concierge'.
+- Inconsistent Format:
+Should only have first names but includes multi-part names and titles.
+- Redundant Entries:
+Some names, such as 'Randy and Roma Amundson', appear multiple times, suggesting redundancy.
+
+2. Middle name
+- Special Characters Used as Middle Names:
+The '&' character is used in some entries (e.g., 'Daria & Marsha') to denote a team or partnership, which is treated as a middle name.
+- Null values: 
+Majority are null values
+
+3. Title
+- Inconsistent Special Characters:
+Different variations of "REALTOR" with inconsistent use of special characters (e.g., ® and ® |).
+Inconsistent Formatting:
+- Similar roles described differently (e.g., "Sales Associate" vs. "Sales Agent").
+Multiple roles combined in one title (e.g., "REALTOR® | Associate Broker | CRS, GRI").
+- Redundant Titles:
+Duplicate titles with slight variations (e.g., "REALTOR" vs. "REALTOR®").
+- Potential Typos or Mislabeling:
+Names listed as titles (e.g., "Abby Burmeister & Tiffany Heier").
+- Special Cases:
+Less common titles that might have varying definitions (e.g., "Office-Group Administrator").
+
+4. Image URL
+- Null values present, no other issues found
+
+5. Agent Phone Number
+- Is in object datatype, should be in numerical
+
+6. Office Phone Number
+- Inconsistent Formatting: 402-436-4663 and (402) 436-4663: These represent the same phone number in different formats. The parentheses and hyphens are used inconsistently.
+- Object Data Type: The column is of type object and not numerical datatype.
+- Null values: Has plenty of null values
+
+7. Email
+- Case Sensitivity:
+Email domains such as 'homerealestate.com' and 'HomeRealEstate.com' are treated as different due to case differences, although they refer to the same domain. This may also indicate inconsistent data entry or formatting.
+
+8. Profile url
+- Incorrect Protocol:
+A row has URL that uses 'httppps' instead of the correct 'https'
+- All other rows have the same URL in both the profile_url and website columns, except for the row with the incorrect protocol.
+
+9. City
+- Inconsistent Formatting: The city column includes "Lincoln " (with trailing whitespace) and "Lincoln" (without).
+
+10. Zipcode
+- Invalid Entry: 'frgthy' is an invalid zip code and appears once, indicating data entry errors.
+- Object Datatype: zip code should be in numerical datatype, but it is object datatype.
+
+11. Languages
+- Mixed Entries: The languages column contains entries with multiple languages combined (e.g., "Russian, Ukrainian") and single languages (e.g., "Russian").
+
+12. Twitter urls
+- Only 2 non null values
+
+13. Other urls [0]
+- The social.other_urls column contains Twitter URLs, even though there is a separate column specifically for Twitter URLs (social.twitter_url), leading to redundancy.
+
+14. Other urls [1]
+- Only 3 non null values

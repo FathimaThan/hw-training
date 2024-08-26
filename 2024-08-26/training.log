@@ -1,0 +1,3 @@
+Found issues in dataset - home_realestate_2024_08_05.json
+Used mongodb compass to convert json to csv format
+Explored dataset using python in jupyter lab and found data quality issues
