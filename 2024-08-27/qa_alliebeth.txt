@@ -1,0 +1,25 @@
+profile url - no issues
+first name - one row has column name as first_names instead of first_name
+middle name - null values present
+last name - no issue, duplicate names present
+image url - null value present, truncated or incomplete url (https://), the website has complete url
+office name - full null value, no values present
+address - null values present(that website has issue, it says not available), 3 unique addresses
+description - out of 440, 413 are unique
+facebook url - Vanity URLs vs. Query URLs: You have a mix of vanity URLs (e.g., /RealEstatewithChristinaHobbs, /JandDRealEstate) and query-based URLs (e.g., /search/top?q=gray%20borcherding, /profile.php?id=61556461411847).While both types of URLs are valid, the difference in structure could lead to inconsistencies when analyzing or cleaning the data.
+twitter url - only 1 valid url, evrything else is null
+linkedin - one row is missing a colon and double slashes (://) after https.
+other url - majority are instagram urls, there is other non social media urls too
+
+Profile URL: No issues detected.
+First Name: One row has the column labeled as first_names instead of first_name.
+Middle Name: Contains null values.
+Last Name: No issues, but duplicate names are present.
+Image URL: Contains null values and some URLs are truncated or incomplete (e.g., https://). The corresponding website has complete URLs.
+Office Name: Fully null; no values are present in this column.
+Address: Contains null values, with 3 unique addresses. The website indicates the address is not available.
+Description: Out of 440 rows, 413 descriptions are unique.
+Facebook URL: Mix of vanity URLs (e.g., /RealEstatewithChristinaHobbs, /JandDRealEstate) and query-based URLs (e.g., /search/top?q=gray%20borcherding, /profile.php?id=61556461411847). This inconsistency could lead to challenges during analysis or cleaning.
+Twitter URL: Only one valid URL; all other entries are null.
+LinkedIn URL: One row is missing the colon and double slashes (://) after https, making the URL invalid.
+Other URLs: Majority are Instagram URLs, but there are also some non-social media URLs included.
