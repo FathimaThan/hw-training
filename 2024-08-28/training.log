@@ -1,0 +1,6 @@
+Found data quality issue on the following datasets
+1. ewm_2024_08_05.json
+2. intero_realestate_2024_08_05.json
+
+Tool used - sublime text
+Learned about Regular Expression on python and how to use it for data validation

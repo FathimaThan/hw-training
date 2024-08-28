@@ -1,0 +1,74 @@
+Data Quality Report
+Dataset Shape: 681 rows, 19 columns
+
+1. First Name:
+Issue: Some names have extra whitespaces (e.g., "Florencia Capiel Moni"). Full names are sometimes incorrectly listed as first names.
+Unique Values: 479 out of 681 names are unique.
+
+2. Middle Name:
+Issue: Presence of null values.
+
+3. Last Name:
+Issue: Presence of null values.
+
+4. Image URL:
+Issue: Presence of null values and one invalid URL value (e.g., false).
+
+5. Title:
+Issues:
+Inconsistent Capitalization and Formatting: Variations like "REALTOR®", "Realtor", "REALTOR", and "Broker Associate".
+Hyphenation Inconsistencies: Variations such as "Realtor-Associate®" and "Realtor - Associate".
+Misspellings: Examples include "BROKER-ASSOTIATE®" and "Sales Assocate" (matches the website).
+Presence of null values.
+
+6. Office Name:
+Issue: One row has the column name as office_names instead of office_name.
+Unique Values: 8.
+
+7. Description:
+Issue: Presence of null values.
+
+8. Languages:
+Issue: Inconsistent Formatting: Languages listed in varying orders and formats (e.g., ["Spanish"], ["English","Italian"], ["English","French","Spanish"]).
+
+9. Address:
+Issue: No issues found.
+
+10. City:
+Issue: 6 unique cities, no issues found.
+
+11. Zip Code:
+Issue: Incorrect Format: One entry contains HTML tags instead of a valid zip code.
+
+12. State:
+Issue: Only one unique value, no issues found.
+
+13. Agent Phone Numbers:
+Issues:
+Inconsistent Formatting: Phone numbers in different formats (e.g., ["786-296-8589"], ["561.222.5240"], ["(954) 707-2611"], ["3056070380"]).
+Varied Separators: Use of hyphens (-), dots (.), and parentheses (()).
+Presence of null values.
+
+14. Office Phone Numbers:
+Issue: Same issues as agent phone numbers.
+
+15. Social:
+Issues:
+Inconsistent URL Schemes: Mixed use of http and https.
+Presence of null values.
+Varied URL Formats: Inconsistent formatting, unnecessary components, and extra elements like query parameters.
+Multiple URLs in other_urls.
+
+16. Website:
+Issues:
+Mixed URL Schemes: URLs include both http and https.
+Incorrect URL Format: Some URLs are malformed or contain errors (e.g., https://http://CarinaRamirez.com, https://http://ewmtraining.com/).
+
+17. Email:
+Issue: No values present, all null.
+
+18. Profile URL:
+Issue: All unique, no issues found.
+
+19. Country:
+Issue: Only one unique value, no issues found.

@@ -1,0 +1,96 @@
+Data Quality Report - intero_realestate_2024_08_05
+Tool used Sublime text
+
+Dataset Shape: 1882 rows, 19 columns
+
+First Name
+Issue: Full names are sometimes listed as first names.
+
+Middle Name
+Issue: Presence of null values.
+
+Last Name
+Issue: Presence of null values.
+
+Office Name
+Issue: None
+Unique Values: 42
+
+Title
+Issues:
+Inconsistent Capitalization: Variations like "Realtor", "REALTOR®", "BROKER ASSOCIATE", "Broker Associate".
+Special Characters: Varying usage of symbols (e.g., "REALTOR®" vs. "Realtor®").
+Hyphenation and Separator Inconsistencies: Examples include "Broker Associate | Realtor" and "Broker Associate - Realtor".
+Descriptive and Non-Standard Titles: Titles like "Turning Your Silicon Valley Real Estate Dreams Into Reality!" and "#1 REALTOR on Social Media in San Jose, CA".
+Job Titles with Multiple Roles: Titles combining multiple roles (e.g., "Assistant Manager, Broker Associate, GM Intero New Development").
+Misspellings and Variations: Inconsistent usage such as "Realtor" vs. "Realtors".
+Presence of Null Values
+
+Languages
+Issues:
+Inconsistent Formatting: Variations like "Swiss German, Alemannic, Alsatian" vs. ["English", "Hindi"].
+Mixed Language Categories: Entries mixing languages and dialects, such as "Mandarin" and "Chinese".
+Inconsistent Language Naming: Example: "Mandarin, Chinese" instead of "Mandarin".
+Historical Languages: Entries like "Old French (842—Ca. 1400)" may not be relevant for modern use.
+Uncommon Variants: Listings such as "Syriac (Northeastern Neo-Aramaic)" and "Pampanga, Kapampangan".
+Inconsistent Ordering: Varied order of languages, affecting sorting and grouping.
+Unnecessary Components: Redundant details like "Germanic Languages" instead of specifying the language.
+
+Image URL
+Issue: Out of 1882 entries, 1748 are unique.
+
+Address
+Issue: None
+Unique Addresses: 40
+
+City
+Issue: None
+Unique Cities: 35
+
+State
+Issue: None
+Unique Values: 4
+
+Zip Code
+Issue: Inconsistent format with some entries including a hyphen with an extended code (e.g., "77098-3023") while others do not (e.g., "95630").
+
+Email
+Issue: no issues found
+
+Website
+Issue: Presence of null values.
+
+Agent Phone Numbers
+Issues:
+Presence of Null Values
+Multiple Phone Numbers: Some entries contain more than one phone number.
+
+Office Phone Numbers
+Issue: Presence of null values.
+
+Social Media
+Facebook:
+WWW Inclusion: Some URLs include "www" (e.g., https://www.facebook.com/) while others do not (e.g., http://facebook.com/).
+Inconsistent URL Schemes: Some use https://, others use http://. Standardize to https://.
+Presence of Null Values
+
+Twitter:
+Presence of Null Values
+
+LinkedIn:
+Incomplete URLs: Example: http://linkedin.com is incomplete.
+Presence of Null Values
+
+Other URLs:
+Null Values Present
+Extra Parameters: Some URLs contain unnecessary query parameters or details.
+Varied Formats: URLs include social media profiles and other links (e.g., YouTube channels, marketing sites).
+
+Profile URL
+Issue: Out of 1882 entries, 1877 are unique.
+
+Description
+Issue: Presence of null values.
+
+Country
+Issue: Only one unique value, no issues found.
