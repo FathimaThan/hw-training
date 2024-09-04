@@ -1,0 +1,11 @@
+completed data qa on following datasets
+coldwellbankerinternational_2024_09_05.json
+reecenichols_2024_09_05.json
+
+Tried installing power bi on ubuntu, can't open
+
+Doing - creating a streamlit app using python to automate data qa
+Dataset - reecenichols_2024_09_05.json
+the app check whether the field spelling is correct
+column wise select and display option, sorting option
+check the order of fields
