@@ -1,0 +1,15 @@
+Created an app using python and streamlit that does the following1. Reads json data
+2. Check fields order
+3. Check field spelling
+4. Check file name format
+5. Display data count or no.of rows
+6. Check for empty fields
+8. User can select mandatory fields and check whether they are present in all rows
+9. Display data in table format(with sort option)
+10. Column-wise display with sort & unique option
+11. Validate email format & urls
+
+To run the app, use code:
+streamlit run QAapp_final.py
+
+The app has been tested with century21global_2024_09_05.json & reecenichols_2024_09_05.json.
