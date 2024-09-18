@@ -1,0 +1,33 @@
+Completed
+********************
+DataHut_AT_Interspar_PriceExtractions_20240918.CSV
+DataHut_AT_Fressnapf_PriceExtractions_20240918.CSV
+
+Data Quality Tools
+- Great Expectations (free)
+ * open-source data validation tool
+ * easy to add to your ETL code
+ * helps automate data validation, profiling, and documentation
+ * integrates well with various file types and data sources like CSV, JSON, databases, and big data platforms
+ * Integrates with Pandas, SQL databases, Spark, and other data sources
+ https://greatexpectations.io/
+
+- Deequ (free)
+ * Developed by AWS
+ * library built on top of Apache Spark for defining "unit tests for data", which measure data quality in large datasets
+ * works on tabular data, e.g., CSV files, database tables, logs, flattened json files etc..
+ * can work with very large datasets
+ * Define constraints on data columns (e.g., uniqueness, completeness, range)
+ * Support for complex constraints and custom metrics
+ * Calculate various metrics such as column distributions, data completeness, and data uniqueness
+ * Automatically profile data to understand its quality and characteristics
+ * There is a python interface for deequ named 'PyDeequ'
+  To use PyDeequ, you need to have PySpark installed. Then you can install PyDeequ using pip.
+ source: https://github.com/awslabs/deequ
+
+- Monto Carlo (paid)
+ * ML-powered tool
+ * Data Observability: Provides visibility into data pipelines and datasets
+ * Data Quality Monitoring: Detects and alerts on data issues and anomalies
+ * Automated Data Testing: Runs automated tests to ensure data quality and reliability
+ https://www.montecarlodata.com/
