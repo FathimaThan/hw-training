@@ -1,0 +1,34 @@
+Completed checking updating fields
+
+DataHut_AT_Mueller_FullDump_20240926.CSV
+DataHut_AT_Billa_FullDump_20240926.CSV
+
+
+DBT Core for Data QA:
+
+- DBT (Data Build Tool) is an open-source tool that allows data analysts and engineers to transform data in their data warehouse.
+- DBT Core is the free, command-line version of DBT, ideal for data transformation.
+- DBT Core is free and open-source. You can use it without licensing fees.
+
+Data Quality Assurance with DBT Core:
+   - Schema Tests: DBT allows you to define tests on your data schema (e.g., uniqueness, not null, relationships between tables).
+   - Custom Tests: You can create custom tests using SQL to validate data quality.
+   - Error Detection: Automates the process of detecting errors like missing data, duplicates, or outliers.
+   - Continuous Integration (CI): Can integrate with CI/CD pipelines to ensure data quality checks are performed continuously as data evolves.
+   - Documentation: DBT automatically generates documentation of the models, transformations, and tests, which helps with auditing data quality.
+Benefits for Data QA:
+   - Automated Testing: Helps automate the validation of data quality rules.
+   - Modular and Scalable: As you build new models, you can test data quality across transformations.
+   - Version Control: Integrates well with Git for tracking changes in data models and tests.
+Types of Built-in Tests:
+   - Not Null: Ensures that a column does not contain null values.
+   - Unique: Ensures that values in a column are unique.
+   - Accepted Values: Checks that a column contains only specific values.
+   - Relationships: Ensures referential integrity between tables.
+Workflow:
+   - Write SQL-based models.
+   - Define tests (built-in or custom) in YAML files.
+   - Run DBT to execute transformations and tests.
+   - Review test results and resolve any data quality issues.
+Integration:
+   - Works with most modern data warehouses like Snowflake, BigQuery, Redshift, and others.
