@@ -1,0 +1,56 @@
+There are two different DBT products: DBT Core and DBT Cloud.
+- DBT Core: Open-source, used for command-line data transformations.
+- DBT Cloud: A web-based Integrated Development Environment (IDE) for managing and running DBT projects.
+
+Prerequisites:
+- Python: Basic knowledge of Python.
+- Command Line Tool (CLI): Familiarity with terminal commands, as most work in DBT Core is done through the terminal.
+- Supported Database: You need access to a SQL-based database system, such as:
+  - Snowflake
+  - BigQuery
+  - PostgreSQL
+  - Databricks
+  - Redshift, etc.
+  
+- Version Control Systems (VCS): Experience working with Git-based systems like GitHub or GitLab is required.
+
+DBT Core is specifically designed to work with SQL-based databases and data warehouses.
+
+Setting Up dbt Core
+1- Create a Python Virtual Environment:
+	python -m venv your_env_name
+2- Activate the Virtual Environment:
+	source your_env_name/bin/activate
+3- Install dbt Core:
+	Run the command:
+	pip install dbt-core
+4- Install the Required Adapter:
+	dbt Core can connect with various data platforms, including:
+		Amazon Redshift
+		Apache Spark
+		Azure Synapse
+		Databricks
+		Google BigQuery
+		Microsoft Fabric
+		PostgreSQL
+		Snowflake
+		Starburst or Trino
+Example installation command for Snowflake:
+	pip install dbt-snowflake
+5- Create a New dbt Project:
+	dbt init your_project_name
+6- Navigate to Your Project Folder:
+	Change into your project directory:
+		cd your_project_name
+7- Locate the profiles.yml File:
+	Check for the profiles.yml file in the .dbt directory. If you can’t find it, you may need to create it manually.
+8- Configure the profiles.yml File:
+	Open the profiles.yml file and configure the connection settings for your chosen adapter. This includes database credentials, schemas, etc. The format varies depending on the database (e.g., for Snowflake, PostgreSQL, etc.).
+9- Save and close the file after making your changes.
+Now, start working with dbt
+1. Create SQL files in the models directory of dbt project
+2. Set up data sources
+3. Run your model using
+	dbt run
+4. Create tests for your models to ensure data integrity. You can define tests in .yml files within the models directory.
+	dbt test
