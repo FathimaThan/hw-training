@@ -1,0 +1,26 @@
+Completed
+bayut_egp_2024_10_02.json
+DataHut_HU_Auchan_PriceExtractions_20241007.CSV
+DataHut_HU_Dm_PriceExtractions_20241007.CSV
+DataHut_HU_Fressnapf_PriceExtractions_20241007.CSV
+DataHut_HU_Spar_PriceExtractions_20241007.CSV
+DataHut_HU_Tesco_PriceExtractions_20241007.CSV
+dubizzle_egp_2024_10_02.json
+
+Edited create_report.py
+
+Added support for csv: custom delimiter '|' , error handling is added with on_bad_lines='skip' to manage malformed lines.
+Added support for xlsx: read Excel files using pd.read_excel() . 
+Updated JSON file handling: After reading the JSON lines, the data is now converted to a Pandas DataFrame for easier processing.
+
+Data QA tool
+
+OpenMetadata
+free and open-source
+offer capabilities like:
+
+Data Discovery: Allows users to discover and explore metadata, including data lineage, from various data sources such as databases, data lakes, and cloud platforms.
+
+Data Governance: Helps maintain control over data access, compliance, and security by implementing governance policies and standards.
+
+Data Observability: Tracks and monitors data flows, health, and quality across the organization, allowing for proactive detection and resolution of issues.
