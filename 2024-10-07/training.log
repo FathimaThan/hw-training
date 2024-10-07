@@ -5,6 +5,8 @@ DataHut_HU_Dm_PriceExtractions_20241007.CSV
 DataHut_HU_Fressnapf_PriceExtractions_20241007.CSV
 DataHut_HU_Spar_PriceExtractions_20241007.CSV
 DataHut_HU_Tesco_PriceExtractions_20241007.CSV
+
+Doing
 dubizzle_egp_2024_10_02.json
 
 Edited create_report.py
