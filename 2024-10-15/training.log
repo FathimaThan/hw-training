@@ -1,0 +1,18 @@
+Completed
+DataHut_AT_Billa_PriceExtractions_20241015.CSV
+DataHut_AT_Bipa_PriceExtractions_20241015.CSV
+DataHut_AT_Dm_PriceExtractions_20241015.CSV
+DataHut_AT_Fressnapf_PriceExtractions_20241015.CSV
+DataHut_AT_Interspar_PriceExtractions_20241015.CSV
+DataHut_AT_Mpreis_PriceExtractions_20241015.CSV
+DataHut_AT_Mueller_PriceExtractions_20241015.CSV
+DataHut_HU_Auchan_PriceExtractions_20241015.CSV
+DataHut_HU_Dm_PriceExtractions_20241015.CSV
+DataHut_HU_Fressnapf_PriceExtractions_20241015.CSV
+DataHut_HU_Spar_PriceExtractions_20241015.CSV
+DataHut_HU_Tesco_PriceExtractions_20241015.CSV
+
+Edited createReport.py
+Added code to check if the 'breadcrumb' column contains "elektronika"
+- if yes, verifies whether grammage_quantity equals '1' and grammage_unit equals 'db'
+- print unique_id of the rows where these conditions are not met
